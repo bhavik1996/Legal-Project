@@ -1,0 +1,541 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Legal — Attorney &amp; Law Firm</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- =============================================
+     01 — NAVIGATION
+     ============================================= -->
+    <nav class="nav" id="mainNav">
+      <div class="nav__inner">
+        <a href="#" class="nav__logo">LEG<span>AL</span></a>
+
+        <ul class="nav__links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#practice">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#team">Our Team</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="nav__right">
+          <a href="#contact" class="btn btn-primary">Free Consultation</a>
+          <button class="nav__hamburger" id="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- =============================================
+     02 — HERO
+     ============================================= -->
+    <section class="hero" id="home">
+      <div class="hero__bg-text" aria-hidden="true">LEG</div>
+
+      <div class="hero__inner container">
+        <div class="hero__content">
+          <p class="eyebrow hero__eyebrow">Trusted Legal Advisors Since 1998</p>
+          <h1 class="hero__title">
+            Experienced,<br />
+            Honest &amp;<br />
+            <em>Successful.</em>
+          </h1>
+          <p class="hero__body">We combine decades of courtroom experience with sharp legal strategy. Your case deserves counsel that fights — and wins.</p>
+          <div class="hero__actions">
+            <a href="#contact" class="btn btn-primary">Get Started →</a>
+            <a href="#practice" class="btn btn-outline">Our Practice Areas</a>
+          </div>
+        </div>
+
+        <div class="hero__visual">
+          <div class="hero__image-wrap">
+            <!--
+          REPLACE with your actual image:
+          <img src="your-lawyer-photo.jpg" alt="Senior Attorney">
+        -->
+            <div class="hero__image-placeholder">
+              <div class="icon">⚖</div>
+              <p>Replace with<br />attorney photo</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stats bar -->
+      <div class="hero__stats">
+        <div class="hero__stats-inner">
+          <div class="stat reveal">
+            <div class="stat__number">98%</div>
+            <div class="stat__label">Case Success Rate</div>
+          </div>
+          <div class="stat reveal reveal-delay-1">
+            <div class="stat__number">25+</div>
+            <div class="stat__label">Years of Experience</div>
+          </div>
+          <div class="stat reveal reveal-delay-2">
+            <div class="stat__number">4,200+</div>
+            <div class="stat__label">Clients Represented</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================================
+     03 — PRACTICE AREAS
+     ============================================= -->
+    <section class="practice" id="practice">
+      <div class="container">
+        <div class="practice__header">
+          <div>
+            <p class="eyebrow reveal">Our Practice Areas</p>
+            <h2 class="section-title reveal reveal-delay-1">
+              Legal expertise<br />
+              <em>where it matters.</em>
+            </h2>
+          </div>
+          <a href="#contact" class="btn btn-outline reveal">Explore All Services →</a>
+        </div>
+
+        <div class="practice__cards">
+          <!-- Card 1 -->
+          <div class="practice-card reveal">
+            <div class="practice-card__icon">⚖</div>
+            <h3 class="practice-card__title">International Law</h3>
+            <p class="practice-card__body">Cross-border disputes, trade law, and international arbitration handled with precision and cultural fluency.</p>
+            <span class="practice-card__link">Learn More →</span>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="practice-card reveal reveal-delay-1">
+            <div class="practice-card__icon">🏛</div>
+            <h3 class="practice-card__title">Bankruptcy Case</h3>
+            <p class="practice-card__body">Protecting your assets and future through Chapter 7, Chapter 13, and business restructuring proceedings.</p>
+            <span class="practice-card__link">Learn More →</span>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="practice-card reveal reveal-delay-2">
+            <div class="practice-card__icon">🛡</div>
+            <h3 class="practice-card__title">Personal Injury</h3>
+            <p class="practice-card__body">Aggressive representation for victims of accidents, negligence, and corporate wrongdoing. No fee unless we win.</p>
+            <span class="practice-card__link">Learn More →</span>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="practice-card reveal">
+            <div class="practice-card__icon">📋</div>
+            <h3 class="practice-card__title">Corporate Law</h3>
+            <p class="practice-card__body">M&amp;A, contract drafting, shareholder disputes, and compliance counsel for businesses of every size.</p>
+            <span class="practice-card__link">Learn More →</span>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="practice-card reveal reveal-delay-1">
+            <div class="practice-card__icon">🏠</div>
+            <h3 class="practice-card__title">Real Estate Law</h3>
+            <p class="practice-card__body">Title disputes, property transactions, landlord-tenant conflicts, and zoning matters resolved swiftly.</p>
+            <span class="practice-card__link">Learn More →</span>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="practice-card reveal reveal-delay-2">
+            <div class="practice-card__icon">👨‍👩‍👧</div>
+            <h3 class="practice-card__title">Family Law</h3>
+            <p class="practice-card__body">Compassionate counsel in divorce, custody, adoption, and domestic matters — protecting what matters most.</p>
+            <span class="practice-card__link">Learn More →</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================================
+     04 — ABOUT
+     ============================================= -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about__inner">
+          <!-- Left: Image -->
+          <div class="about__image-col reveal">
+            <div class="about__img-wrap">
+              <!--
+            REPLACE with your about/office image:
+            <img src="about-office.jpg" alt="Our law office">
+          -->
+              <div style="text-align: center; padding: 40px; color: var(--color-muted); font-size: 13px">
+                <div style="font-size: 48px; opacity: 0.3; margin-bottom: 12px">🏛</div>
+                <p>Replace with office / team photo</p>
+              </div>
+            </div>
+            <div class="about__badge">
+              <span class="about__badge-num">25+</span>
+              <span class="about__badge-label">Years of Trust</span>
+            </div>
+          </div>
+
+          <!-- Right: Content -->
+          <div class="about__content">
+            <p class="eyebrow reveal">Finance &amp; Consulting</p>
+            <h2 class="section-title reveal reveal-delay-1">
+              Trusted &amp; professional<br />
+              <em>advisors for your business.</em>
+            </h2>
+            <p class="about__body reveal reveal-delay-2">
+              We inspire the law and devote ourselves to outcomes that last. Our attorneys bring integrity and tenacity to every case — from first consultation to final verdict.
+            </p>
+
+            <div class="about__features reveal reveal-delay-3">
+              <div class="feature-row">
+                <div class="feature-row__icon">◎</div>
+                <div>
+                  <h4 class="feature-row__title">Free Consultation</h4>
+                  <p class="feature-row__text">Speak with a senior attorney before committing a single dollar. No obligation, no pressure.</p>
+                </div>
+              </div>
+              <div class="feature-row">
+                <div class="feature-row__icon">◎</div>
+                <div>
+                  <h4 class="feature-row__title">Fair &amp; Transparent Fees</h4>
+                  <p class="feature-row__text">Clear billing, no hidden costs. We offer contingency, flat-rate, and hourly arrangements.</p>
+                </div>
+              </div>
+              <div class="feature-row">
+                <div class="feature-row__icon">◎</div>
+                <div>
+                  <h4 class="feature-row__title">Quality-Driven Results</h4>
+                  <p class="feature-row__text">98% success rate built on preparation, strategy, and relentless advocacy for our clients.</p>
+                </div>
+              </div>
+            </div>
+
+            <div style="margin-top: 36px" class="reveal reveal-delay-4">
+              <a href="#contact" class="btn btn-primary">Get Started Today →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================================
+     05 — CTA BANNER
+     ============================================= -->
+    <section class="cta-banner">
+      <div class="cta-banner__inner">
+        <h2 class="cta-banner__title reveal">
+          Feel free to make a call<br />
+          <em>request now.</em>
+        </h2>
+        <a href="tel:4447770000" class="btn btn-primary reveal reveal-delay-1" style="font-size: 15px; padding: 16px 36px"> ☎ +1 (444) 777-0000 </a>
+      </div>
+    </section>
+
+    <!-- =============================================
+     06 — TEAM
+     ============================================= -->
+    <section class="team" id="team">
+      <div class="container">
+        <div class="team__header reveal">
+          <p class="eyebrow">Our Lawyers</p>
+          <h2 class="section-title">Meet our <em>Attorneys</em></h2>
+        </div>
+
+        <div class="team__grid">
+          <!-- Attorney 1 -->
+          <div class="team-card reveal">
+            <div class="team-card__photo">
+              <!--
+            REPLACE:
+            <img src="team-1.jpg" alt="Shawn K. Garza">
+          -->
+              <div class="team-card__photo-placeholder">
+                <div style="font-size: 48px; opacity: 0.3; margin-bottom: 8px">👤</div>
+                <p>Attorney Photo</p>
+              </div>
+              <div class="team-card__overlay">
+                <div class="team-card__socials">
+                  <a href="#" class="team-card__social" aria-label="LinkedIn">in</a>
+                  <a href="#" class="team-card__social" aria-label="Twitter">𝕏</a>
+                </div>
+              </div>
+            </div>
+            <div class="team-card__info">
+              <h3 class="team-card__name">Shawn K. Garza</h3>
+              <p class="team-card__role">Senior Attorney</p>
+            </div>
+          </div>
+
+          <!-- Attorney 2 -->
+          <div class="team-card reveal reveal-delay-1">
+            <div class="team-card__photo">
+              <div class="team-card__photo-placeholder">
+                <div style="font-size: 48px; opacity: 0.3; margin-bottom: 8px">👤</div>
+                <p>Attorney Photo</p>
+              </div>
+              <div class="team-card__overlay">
+                <div class="team-card__socials">
+                  <a href="#" class="team-card__social" aria-label="LinkedIn">in</a>
+                  <a href="#" class="team-card__social" aria-label="Twitter">𝕏</a>
+                </div>
+              </div>
+            </div>
+            <div class="team-card__info">
+              <h3 class="team-card__name">Debra J. Kirkland</h3>
+              <p class="team-card__role">Senior Attorney</p>
+            </div>
+          </div>
+
+          <!-- Attorney 3 -->
+          <div class="team-card reveal reveal-delay-2">
+            <div class="team-card__photo">
+              <div class="team-card__photo-placeholder">
+                <div style="font-size: 48px; opacity: 0.3; margin-bottom: 8px">👤</div>
+                <p>Attorney Photo</p>
+              </div>
+              <div class="team-card__overlay">
+                <div class="team-card__socials">
+                  <a href="#" class="team-card__social" aria-label="LinkedIn">in</a>
+                  <a href="#" class="team-card__social" aria-label="Twitter">𝕏</a>
+                </div>
+              </div>
+            </div>
+            <div class="team-card__info">
+              <h3 class="team-card__name">Marcus T. Webb</h3>
+              <p class="team-card__role">Litigation Partner</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================================
+     07 — TESTIMONIALS
+     ============================================= -->
+    <section class="testimonials">
+      <div class="container">
+        <div class="testimonials__header">
+          <p class="eyebrow reveal">Client Testimonials</p>
+          <h2 class="section-title reveal reveal-delay-1">What they're<br /><em>saying about us.</em></h2>
+        </div>
+
+        <div class="testimonials__grid">
+          <!-- Testimonial 1 -->
+          <div class="testimonial-card reveal">
+            <div class="testimonial-card__stars">★★★★★</div>
+            <p class="testimonial-card__quote">"Legal's team handled my corporate dispute with absolute professionalism. The outcome exceeded every expectation I had."</p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar">CE</div>
+              <div>
+                <p class="testimonial-card__name">Christine Eve</p>
+                <p class="testimonial-card__role">CEO, EveCorp</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="testimonial-card reveal reveal-delay-1">
+            <div class="testimonial-card__stars">★★★★★</div>
+            <p class="testimonial-card__quote">"From the first consultation I knew I was in good hands. Transparent, fair fees and a result that changed my family's life."</p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar">MC</div>
+              <div>
+                <p class="testimonial-card__name">Micah Carter</p>
+                <p class="testimonial-card__role">Small Business Owner</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="testimonial-card reveal reveal-delay-2">
+            <div class="testimonial-card__stars">★★★★★</div>
+            <p class="testimonial-card__quote">"Sharp, strategic, and always reachable. Legal won a case three other firms said was unwinnable. I am eternally grateful."</p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar">MP</div>
+              <div>
+                <p class="testimonial-card__name">Marvin Painter</p>
+                <p class="testimonial-card__role">Retired Executive</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================================
+     08 — CONTACT
+     ============================================= -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="contact__inner">
+          <!-- Left: info -->
+          <div>
+            <p class="eyebrow reveal">Contact Now</p>
+            <h2 class="contact__info-title reveal reveal-delay-1">Book your<br /><em>free consultation.</em></h2>
+            <p class="contact__body reveal reveal-delay-2">Reach out today. A senior attorney will personally review your situation and advise you on the clearest path forward — at no cost.</p>
+
+            <div class="contact__details reveal reveal-delay-3">
+              <div class="contact__detail">
+                <div class="contact__detail-icon">☎</div>
+                <div>
+                  <p class="contact__detail-label">Phone</p>
+                  <p class="contact__detail-value">+1 (444) 777-0000</p>
+                </div>
+              </div>
+              <div class="contact__detail">
+                <div class="contact__detail-icon">📍</div>
+                <div>
+                  <p class="contact__detail-label">Address</p>
+                  <p class="contact__detail-value">22 Road, Brooklyn Street, New York, USA</p>
+                </div>
+              </div>
+              <div class="contact__detail">
+                <div class="contact__detail-icon">✉</div>
+                <div>
+                  <p class="contact__detail-label">Email</p>
+                  <p class="contact__detail-value">hello@gmaul.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: form -->
+          <div class="contact__form reveal reveal-delay-1">
+            <h3 class="form__title">Send a Message</h3>
+
+            <!--
+          TO MAKE THIS FORM SUBMIT EMAILS (no backend needed):
+          1. Go to https://formspree.io and create a free account
+          2. Create a new form — you'll get a form endpoint URL
+          3. Replace the action below with your Formspree URL:
+             action="https://formspree.io/f/YOUR_FORM_ID"
+          4. That's it! Submissions go to your email automatically.
+        -->
+            <form id="contactForm" action="#" method="POST">
+              <div class="form__row">
+                <div class="form__group">
+                  <label class="form__label" for="firstName">First Name</label>
+                  <input class="form__input" type="text" id="firstName" name="firstName" placeholder="John" required />
+                </div>
+                <div class="form__group">
+                  <label class="form__label" for="lastName">Last Name</label>
+                  <input class="form__input" type="text" id="lastName" name="lastName" placeholder="Smith" required />
+                </div>
+              </div>
+
+              <div class="form__group">
+                <label class="form__label" for="email">Email Address</label>
+                <input class="form__input" type="email" id="email" name="email" placeholder="you@email.com" required />
+              </div>
+
+              <div class="form__group">
+                <label class="form__label" for="phone">Phone Number</label>
+                <input class="form__input" type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000" />
+              </div>
+
+              <div class="form__group">
+                <label class="form__label" for="service">Practice Area</label>
+                <select class="form__select" id="service" name="service">
+                  <option value="">— Select a practice area —</option>
+                  <option>International Law</option>
+                  <option>Bankruptcy</option>
+                  <option>Personal Injury</option>
+                  <option>Corporate Law</option>
+                  <option>Real Estate Law</option>
+                  <option>Family Law</option>
+                  <option>Other</option>
+                </select>
+              </div>
+
+              <div class="form__group">
+                <label class="form__label" for="message">Your Message</label>
+                <textarea class="form__textarea" id="message" name="message" placeholder="Briefly describe your situation…" required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center">Send Message →</button>
+
+              <p class="form__note">We respond within 24 hours. All consultations are confidential.</p>
+            </form>
+
+            <!-- Success message shown after submit -->
+            <div class="form__success" id="formSuccess">
+              <div class="form__success-icon">✓</div>
+              <p class="form__success-msg">Message received!</p>
+              <p style="color: var(--color-muted); font-size: 14px; margin-top: 8px">We'll be in touch within 24 hours.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================================
+     09 — FOOTER
+     ============================================= -->
+    <footer>
+      <div class="footer__top">
+        <div class="footer__top-inner container">
+          <!-- Brand + newsletter -->
+          <div class="footer__brand">
+            <div class="footer__logo">LEG<span>AL</span></div>
+            <p class="footer__tagline">Expert legal counsel with integrity. Protecting your rights since 1998.</p>
+            <div class="footer__newsletter">
+              <input type="email" placeholder="Your email address" aria-label="Subscribe to newsletter" />
+              <button type="button">Subscribe</button>
+            </div>
+          </div>
+
+          <!-- Links col 1 -->
+          <div>
+            <p class="footer__col-title">Explore</p>
+            <ul class="footer__links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#practice">Services</a></li>
+              <li><a href="#team">Our Team</a></li>
+              <li><a href="#">Case Studies</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+
+          <!-- Links col 2 -->
+          <div>
+            <p class="footer__col-title">Practice Areas</p>
+            <ul class="footer__links">
+              <li><a href="#">Criminal Law</a></li>
+              <li><a href="#">Civil Rights</a></li>
+              <li><a href="#">Corporate Law</a></li>
+              <li><a href="#">Real Estate</a></li>
+              <li><a href="#">Family Law</a></li>
+              <li><a href="#">Bankruptcy</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact col -->
+          <div>
+            <p class="footer__col-title">Have Questions?</p>
+            <ul class="footer__links">
+              <li><a href="tel:9007770000">☎ +91 9007770000</a></li>
+              <li><a href="#">📍 22 Road, Mumbai, Mh</a></li>
+              <li><a href="mailto:hello@gmaul.com">✉ hello@gmaul.com</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <div class="footer__bottom-inner container">
+          <p class="footer__copy">© 2026 Tridigi Business & Solutions. All rights reserved.</p>
+          <div class="footer__socials">
+            <a href="#" class="footer__social" aria-label="Twitter">𝕏</a>
+            <a href="#" class="footer__social" aria-label="Facebook">f</a>
+            <a href="#" class="footer__social" aria-label="LinkedIn">in</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="/script.js"></script>
+  </body>
+</html>
